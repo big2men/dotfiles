@@ -99,6 +99,14 @@ brew install ssh-copy-id
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install tmux
+
+
+# Install PHP Extensions
+brew install homebrew/php/php55-xdebug
+
+# Install Node.js
+brew install node
 
 # Remove outdated versions from the cellar.
 brew cleanup
