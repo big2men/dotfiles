@@ -1,3 +1,7 @@
+[user]
+	name  = Shun Hotta
+	email = stars.big2men@gmail.com
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -71,6 +75,9 @@
 			git commit --amend -m \"$(git log -1 --pretty=%B)\n\nCloses #$1.\"; \
 		fi \
 	}; f"
+
+	# Show status
+	st = status
 
   # Checkout branch
 	co = checkout
