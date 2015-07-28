@@ -72,6 +72,18 @@
 		fi \
 	}; f"
 
+  # Checkout branch
+	co = checkout
+
+	# Show branchs
+	br = branch
+
+	# Reset staged code
+	unstage = reset HEAD
+
+	# Fetch
+	f = fetch --prune
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
