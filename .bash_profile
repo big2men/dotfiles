@@ -46,3 +46,17 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# rbenv
+if which rbenv > /dev/null; then
+	eval "$(rbenv init -)"
+	export PATH="/usr/local/sbin:$PATH"
+fi;
+
+# docker-machine alias
+if which docker-machine > /dev/null; then
+	dm()
+	{
+		docker-machine "$1" default
+	}
+fi;
