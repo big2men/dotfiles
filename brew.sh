@@ -100,6 +100,8 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 brew install tmux
+brew install tig
+brew install jq
 
 
 # Install PHP Extensions
