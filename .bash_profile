@@ -59,4 +59,6 @@ if which docker-machine > /dev/null; then
 	{
 		docker-machine "$1" default
 	}
+
+	eval "$(docker-machine env default)"
 fi;
