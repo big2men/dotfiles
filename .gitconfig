@@ -91,6 +91,14 @@
 	# Fetch
 	f = fetch --prune
 
+	# Git-Flow feature
+	ffs = flow feature start
+	fff = flow feature finish
+
+	# Git-Flow release
+	frs = flow release start
+	frf = flow release finish
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
