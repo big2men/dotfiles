@@ -102,6 +102,7 @@ brew install zopfli
 brew install tmux
 brew install tig
 brew install jq
+brew install hub
 
 
 # Install PHP Extensions
