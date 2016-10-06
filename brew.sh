@@ -111,5 +111,14 @@ brew install homebrew/php/php55-xdebug
 # Install Node.js
 brew install node
 
+# Install mysql
+brew install mysql
+
+# Install redis
+brew install redis
+
+# Install rbenv
+brew install rbenv ruby-build
+
 # Remove outdated versions from the cellar.
 brew cleanup
