@@ -90,6 +90,7 @@
 
 	# Fetch
 	f = fetch --prune
+	pull = pull --prune
 
 	# Git-Flow feature
 	ffs = flow feature start
@@ -166,6 +167,13 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+
+	# no-ff
+	ff = false
+
+[pull]
+
+	ff = only
 
 [push]
 
